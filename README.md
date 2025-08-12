@@ -1,4 +1,4 @@
-# Installing Active Directory Domain Services (AD DS) and creating a new forest on Windows Server 2022 in an Azure Virtual Machine
+# Installing Active Directory Domain Services (AD DS) and creating a new forest on Windows Server 2022 on Azure Virtual Machine
 
 ## Set variables:
 
@@ -45,3 +45,4 @@ Install-ADDSForest `
     -Force `
     -NoRebootOnCompletion:$false
 ```
+
